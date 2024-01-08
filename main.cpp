@@ -9,7 +9,7 @@ int main() {
 
   do {
 
-    printf("\n------------- SPM - Inicio -------------\n");
+    printf("\n\n------------- SPM - Inicio -------------\n");
     printf("\n1 - Viatura Login");
     printf("\n2 - Viatura em Uso");
     printf("\n3 - COPOM");
@@ -21,11 +21,17 @@ int main() {
     scanf("%d", &opcao);
 
     if (opcao == 1) {
-    } else if (opcao == 2) {
-    } else if (opcao == 3) {
-    } else if (opcao == 4) {
-    } else if (opcao == 5) {
-    } else if (opcao == 6) {
+      viaturaLogin();
+    }
+    else if (opcao == 2) {
+    }
+    else if (opcao == 3) {
+    }
+    else if (opcao == 4) {
+    }
+    else if (opcao == 5) {
+    }
+    else if (opcao == 6) {
     }
 
   } while (opcao != 0);

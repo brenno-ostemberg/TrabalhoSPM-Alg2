@@ -1,5 +1,7 @@
 #define MAX 101
 
+// Structs: 
+
 struct Lista {
   
   int tipoDado;
@@ -10,7 +12,7 @@ struct Lista {
 
 struct viatura {
 
-  char tipo; // R = Regular | E = Especializada
+  char tipo; // R = Regular (2-4) | E = Especializada (4)
   int codigo;
   int quantidadePM;
   struct policias;
@@ -22,3 +24,7 @@ struct policial {
   struct policial *proxPolicial;
 };
 
+// Funções:
+
+void viaturaLogin(); 
+bool verificarViatura(int codigo, char*& tipo); 
