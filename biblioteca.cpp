@@ -5,8 +5,7 @@
 
 void viaturaLogin() {
 
-  int codigoViatura;
-  int quantidadePMs;
+  int codigoViatura, quantidadePMs, i;
   char* tipoViatura; 
 
   printf("\n---------------- SPM - Viatura Login ----------------");
@@ -28,6 +27,12 @@ void viaturaLogin() {
      printf("\nFalha no Login.\nQuantidade de PMs invalida.");
      return;
   }     
+
+  for (i = 0; i < quantidadePMs; i++) {
+
+
+
+  }
 
 }
 
